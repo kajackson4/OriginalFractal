@@ -8,10 +8,10 @@
   public void draw(){
   background(0);
   fractal(10, 10, 500);
-  fractal(190, 110, 200);
-  fractal(190, 210, 100);
-  fractal(190, 310, 50);
-  fractal(190, 410, 25);
+  fractal(200, 110, 350);
+  fractal(200, 210, 100);
+  fractal(200, 310, 50);
+  fractal(200, 410, 25);
   }
   public void fractal(int k, int y,int siz){
     fill((int)(Math.random()*255), (int)(Math.random()*5),(int)(Math.random()*5), (int)(Math.random()*255));
