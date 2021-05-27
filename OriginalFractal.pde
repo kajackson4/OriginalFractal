@@ -1,14 +1,14 @@
  public void settings() {
-    size(400, 400);
+    size(500, 500);
   }
 
   public void setup(){
-    size(500, 500);
+  
   }
   public void draw(){
   background(0);
-  fractal(70, 10, 50);
-  fractal(320, 10, 50);
+  fractal(70, 10, 25);
+  fractal(320, 10, 25);
   fractal(200, 110, 200);
   fractal(200, 210, 100);
   fractal(200, 310, 50);
