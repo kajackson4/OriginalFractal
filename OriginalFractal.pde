@@ -1,5 +1,5 @@
  public void settings() {
-    size(500, 500);
+    size(400, 400);
   }
 
   public void setup(){
@@ -7,8 +7,8 @@
   }
   public void draw(){
   background(0);
-  fractal(70, 10, 25);
-  fractal(320, 10, 25);
+  fractal(70, 10, 50);
+  fractal(320, 10, 50);
   fractal(200, 110, 200);
   fractal(200, 210, 100);
   fractal(200, 310, 50);
