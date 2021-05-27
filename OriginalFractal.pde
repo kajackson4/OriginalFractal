@@ -1,8 +1,4 @@
-import processing.core.PApplet;
-
-public class Sketch extends PApplet {
-
-  public void settings() {
+ public void settings() {
     size(400, 400);
   }
 
@@ -12,8 +8,9 @@ public class Sketch extends PApplet {
   public void draw(){
   background(0);
   fractal(10, 10, 500);
-  fractal(110, 110, 500);
-  fractal(210, 210, 300);
+  fractal(110, 110, 300);
+  fractal(190, 210, 100);
+  fractal(190, 310, 50);
   }
   public void fractal(int k, int y,int siz){
     fill((int)(Math.random()*255), (int)(Math.random()*5),(int)(Math.random()*5), (int)(Math.random()*255));
@@ -39,4 +36,4 @@ public class Sketch extends PApplet {
         fractal(k+siz/2, y, siz/2);
     }
   }
-  }
+ 
